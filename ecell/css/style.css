@@ -23,6 +23,11 @@ body {
   position: relative;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 a {
   color: #6173f4;
   -webkit-transition: 0.5s;
@@ -283,6 +288,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:center;
 }
 
 #fh5co-our-services,
